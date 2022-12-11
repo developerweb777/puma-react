@@ -1,0 +1,33 @@
+.header {
+  background-color: #ffff;
+
+  &_nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_ul {
+      width: 45%;
+      justify-content: space-between;
+      display: flex;
+      &_li {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+
+        color: #000000;
+      }
+    }
+    &_button {
+      background-color: #ff9635;
+      border-radius: 6px;
+      width: 133px;
+      height: 47px;
+      border: none;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 27px;
+      color: #ffff;
+    }
+  }
+}

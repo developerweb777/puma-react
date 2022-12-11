@@ -1,0 +1,45 @@
+.sign {
+  margin-top: 200px;
+  display: flex;
+  margin-bottom: 100px;
+  &_text {
+    width: calc(1300px - 564px);
+    padding: 50px;
+    background: linear-gradient(90deg, #FD746C 0%, #FF9068 100%);
+    &_h2 {
+      font-weight: 400;
+      font-size: 45px;
+      line-height: 68px;
+      color: #000000;
+    }
+    &_p {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      margin-top: 30px;
+      margin-bottom: 55px;
+      color: #000000;
+    }
+    &_input {
+      width: calc(614px - 94px);
+      height: 52px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      padding-left: 20px;
+      color: #686868;
+      background: rgba(255, 255, 255, 0.65);
+    }
+    &_button {
+      width: 95px;
+      height: 52px;
+      border: 2px solid #ffffff;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #000000;
+      background: #ffffff;
+      border-radius: 5px 7px 7px 5px;
+    }
+  }
+}

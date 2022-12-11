@@ -1,0 +1,76 @@
+.gallery {
+  margin-top: 230px;
+
+  &_title_h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ff8947;
+  }
+  &_title_h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  &_menu {
+    display: flex;
+    &_ul {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      &_strong {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #000000;
+      }
+      &_li {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 42px;
+      }
+    }
+  }
+  &_span_images {
+    margin-left: 455px;
+  }
+  &_span_images2 {
+    margin-left: 55px;
+  }
+  &_boxes {
+    display: flex;
+  }
+  &_box {
+    width: 323px;
+    height: 400px;
+    &_body {
+      padding: 30px;
+    }
+    &_h3 {
+      font-weight: 500;
+      font-size: 26px;
+      margin-top: -30px;
+    }
+    &_span {
+      display: flex;
+      margin-top: 10px;
+      &_p1 {
+        margin-left: 22px;
+      }
+    }
+    &_button {
+      width: 133px;
+      height: 47px;
+      background-color: #ff9635;
+      border: none;
+      border-radius: 5px;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 27px;
+      color: aliceblue;
+      margin-top: 10px;
+    }
+  }
+}

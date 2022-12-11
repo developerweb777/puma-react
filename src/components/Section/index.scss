@@ -1,0 +1,65 @@
+.shoes {
+  margin-top: 131px;
+  display: flex;
+  &_text {
+    width: 478px;
+    height: 341px;
+    &_h2 {
+      font-weight: 500;
+      font-size: 70px;
+      line-height: 82px;
+      color: #000000;
+    }
+    &_p {
+      margin-top: 30px;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 28px;
+      color: #000000;
+    }
+  }
+  &_img {
+    margin-left: 242px;
+  }
+  &_buy {
+    width: 865px;
+    height: 129px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 7px 30px rgba(147, 147, 147, 0.25);
+border-radius: 10px;
+align-items:center ;
+margin-top: 46px;
+margin-bottom: 120px;
+   &_span {
+      &_p {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 28px;
+      }
+      &_strong {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 28px;
+      }
+      &_select {
+        margin-top: 10px;
+        width: 52px;
+        border: none;
+        outline: none;
+      }
+    }
+    &_btn {
+      width: 133px;
+      height: 47px;
+      background-color: #ff9635;
+      border-radius: 5px;
+      font-size: 22px;
+      line-height: 27px;
+border: none;
+      color: #ffffff;
+    }
+  }
+}

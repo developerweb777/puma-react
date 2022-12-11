@@ -1,0 +1,28 @@
+.desire {
+  display: flex;
+  align-items: center;
+  &_text {
+    font-weight: 500;
+    width: 496px;
+    height: calc(78px + 228px);
+    &_h2 {
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 64px;
+    }
+    &_p {
+      font-size: 26px;
+      line-height: 39px;
+      color: #ff8947;
+    }
+    &_p2 {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      margin-top: 9px;
+    }
+  }
+  &_img {
+    margin-left: 162px;
+  }
+}
